@@ -12,9 +12,10 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <div class="container">
-        <div class="col-8 mx-auto text-center m-4">
-            <h1>Kilograms to other measurements converter</h1>
+    <div class="container bg-secondary " style="height: 100vh;">
+        <div class="col-8 mx-auto text-center m-4 ">
+            <h1>Converter</h1>
+            <h3>Kilogram converter</h3>
             <form action="#" class="mt-5">
                 <select name="weight" id="weightUnit" class="me-3 p-1">
                     <option value="2.2046">Pound (lbs)</option>
@@ -25,9 +26,13 @@
                 
             </form> 
 
-            <h1 id="total"></h1>
-            
+            <h1 id="total" class="mt-4"></h1>
+
+
          </div>
+
+
+        
         
     </div>
 
@@ -40,6 +45,8 @@
 
             document.getElementById('total').innerHTML = ans;
         }
+
+        
     </script>
 
   
